@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nurfitriyani.example.com.nurfitriyani_1202150242_modul1.EatbusActivity">
+
+    <TextView
+        android:id="@+id/makanApa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Makan Malam"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tempatMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/makanApa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Tempat Makan"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tempatMakan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Menu"
+        android:textSize="17sp"
+        android:textColor="#adb1ba"
+        tools:layout_editor_absoluteX="171dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Porsi"
+        android:textSize="17sp"
+        android:textColor="#adb1ba"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <TextView
+        android:id="@+id/harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/porsi"
+        android:layout_below="@+id/porsi"
+        android:layout_marginTop="78dp"
+        android:text="Harga"
+        android:textSize="17sp"
+        android:textColor="#adb1ba"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_below="@+id/porsi"
+        android:layout_marginTop="21dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_below="@+id/harga"
+        android:layout_marginTop="23dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/jenisMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_centerHorizontal="true"
+        android:text="Jenis Makanan" />
+
+    <TextView
+        android:id="@+id/jmlMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/porsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Total Makanan" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="HargaKeseluruhan" />
+
+
+</RelativeLayout>

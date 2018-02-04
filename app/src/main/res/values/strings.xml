@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NurFitriyani_1202150242_Modul1</string>
+    <string name="dengan_milea">dengan Milea</string>
+    <string name="Eatbus_activity">Eatbus_activity</string>
+    <string name="nasi_uduk">Nasi Uduk</string>
+    <string name="button_main">EATBUS</string>
+    <string name="eatbus">Eatbus</string>
+    <string name="menu">Menu</string>
+    <string name="porsi">Porsi</string>
+    <string name="harga">Harga</string>
+    <string name="makan_malam">Makan Malam</string>
+</resources>
